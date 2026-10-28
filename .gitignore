@@ -1,0 +1,13 @@
+# Private toolbox (rebuildable, large, specific to this laptop)
+.venv/
+
+# Secrets: never upload these
+.env
+
+# Collected data and logs (kept local for now)
+data/
+logs/
+
+# Python's automatic leftovers
+__pycache__/
+*.pyc
